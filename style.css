@@ -23,6 +23,7 @@ body{
     align-items: center;
     background-color: white;
     margin-top: 40%;
+    border-radius: 10px;
 }
 
 .posJogo{
@@ -32,10 +33,12 @@ body{
     display: flex;
     padding: 0px;
     margin: 0px;
-    
+    border-color: blue;
 }
 #dvmenu{
-    margin-top: 5%;
+    margin-top: 15%;
+    width: 30px;
+    height: 25px;
 
 }
 #p1{
