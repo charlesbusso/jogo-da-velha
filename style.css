@@ -22,7 +22,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: white;
-    margin-top: 40%;
+    margin-top: 30%;
     border-radius: 10px;
 }
 
@@ -36,9 +36,10 @@ body{
     border-color: blue;
 }
 #dvmenu{
-    margin-top: 15%;
-    width: 30px;
-    height: 25px;
+    margin-top: 20%;
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
 
 }
 #p1{
@@ -87,4 +88,5 @@ footer p{
     font-size: 1.2rem;
     text-align: center;
     color: blue;
+    height: 70px;
 }
