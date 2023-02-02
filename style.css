@@ -11,7 +11,7 @@ body{
     align-items: center;
     height: 100%;
     flex-direction: column;
-    margin-top: 5%;
+    background-color: blue;
 }
 #dvJogo{
     width: 220px;
@@ -22,6 +22,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: pink;
+    margin-top: 20%;
 }
 
 .posJogo{
