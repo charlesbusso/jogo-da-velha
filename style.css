@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#dvJogo{
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.posJogo{
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid black;
+}
