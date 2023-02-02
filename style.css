@@ -33,7 +33,7 @@ body{
     display: flex;
     padding: 0px;
     margin: 0px;
-    border-color: blue;
+    
 }
 #dvmenu{
     margin-top: 20%;
@@ -43,43 +43,43 @@ body{
 
 }
 #p1{
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border-right: 1px solid blue;
+    border-bottom: 1px solid blue;
 }
 #p2{
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
+    border-right: 1px solid blue;
+    border-left: 1px solid blue;
+    border-bottom: 1px solid blue;
 }
 #p3{
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
+    border-left: 1px solid blue;
+    border-bottom: 1px solid blue;
 }
 #p4{
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-right: 1px solid blue;
+    border-bottom: 1px solid blue;
+    border-top: 1px solid blue;
 }
 #p5{
-  border: 1px solid black;
+  border: 1px solid blue;
 }
 #p6{
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-left: 1px solid blue;
+    border-bottom: 1px solid blue;
+    border-top: 1px solid blue;
 }
 #p7{
-    border-right: 1px solid black;
-    border-top: 1px solid black;
+    border-right: 1px solid blue;
+    border-top: 1px solid blue;
 }
 #p8{
-    border-right: 1px solid black;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
+    border-right: 1px solid blue;
+    border-top: 1px solid blue;
+    border-left: 1px solid blue;
 }
 #p9{
-    border-left: 1px solid black;
-    border-top: 1px solid black;
+    border-left: 1px solid blue;
+    border-top: 1px solid blue;
 }
 footer p{
     margin-top: 60px;
