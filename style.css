@@ -22,7 +22,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: white;
-    margin-top: 30%;
+    margin-top: 25%;
     border-radius: 10px;
 }
 
@@ -31,7 +31,7 @@ body{
     height: 50px;
     cursor: pointer;
     display: flex;
-    padding: 0px;
+    padding: 5px;
     margin: 0px;
     
 }
@@ -82,10 +82,13 @@ body{
     border-top: 1px solid blue;
 }
 footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 60px;
     border-radius: 10px;
     background-color: white;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: center;
     color: blue;
     height: 70px;
