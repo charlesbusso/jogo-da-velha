@@ -263,7 +263,7 @@ function atualizaTabuleiro(){
         for(let c = 0; c < 3; c ++){
             if(jogo[l][c] == "X"){
                 tabuleiro[l][c].innerHTML = " X ";
-                tabuleiro[l][c].style.cursor = "default";
+                tabuleiro[l][c].style.cursor = " default ";
 
             }else if(jogo[l][c] == "O"){
                 tabuleiro[l][c].innerHTML = " O ";
