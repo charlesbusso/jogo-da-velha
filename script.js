@@ -154,7 +154,8 @@ function cpuJoga(){
             atualizaTabuleiro();
             quemJoga = 0;
         
-        
+        }
+}
     
     function verificaVitoria(){
         //linhas
