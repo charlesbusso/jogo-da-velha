@@ -137,7 +137,6 @@ function cpuJoga(){
                         for(let c=0;c<3;c++){
                             if(jogo[l][c] == ""){
                                 jogo[l][c] = "O";
-                            }
                         }
                     }
                 }
