@@ -176,9 +176,10 @@ function cpuJoga(){
             return jogo[0][0]; 
      } if((jogo[0][2] == jogo[1][1])&&(jogo[1][1] == jogo[2][0])){     
            return jogo[0][2]; 
-    }
+    
     return "";
     }
+}
 
 
 
