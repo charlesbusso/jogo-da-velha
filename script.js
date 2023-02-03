@@ -152,6 +152,7 @@ function cpuJoga(){
                 jogando = false;
             }
             atualizaTabuleiro();
+            jogada ++;
             quemJoga = 0;
         
         }
@@ -251,6 +252,7 @@ function jogar(p){
             alert(verifica + "venceu");
             jogando = false;
     }
+    jogada ++;
     cpuJoga();
 
         }
