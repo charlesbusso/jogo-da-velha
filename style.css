@@ -21,6 +21,8 @@ header{
      color: blue;
      flex-direction: column;
      border-radius: 10px;
+     margin: 5px;
+     height: 100px;
     }
 header h1{
      font-size: 2rem;
@@ -39,13 +41,13 @@ header p{
     justify-content: center;
     align-items: center;
     background-color: white;
-    margin-top: 20%;
+    margin-top: 15%;
     border-radius: 10px;
 }
 
 .posJogo{
     width: 60px;
-    height: 60px;
+    height: 50px;
     cursor: pointer;
     display: flex;
     padding: 0px;
