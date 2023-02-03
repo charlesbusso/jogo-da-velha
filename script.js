@@ -121,8 +121,8 @@ function cpuJoga(){
                 jogo[1][2] = "O";
             }else if((jogo[1][2] == "X")&&(jogo[2][2] == "X")&&(jogo[0][2] == "")){
                 jogo[0][2] = "O";
-            }// diagonal  1
-             else if((jogo [0][0] == "X")&&(jogo[1][1] == "X")&&(jogo[2][2] == "")){
+            }//diagonal 1
+             else if((jogo[0][0] == "X")&&(jogo[1][1] == "X")&&(jogo[2][2] == "")){
                 jogo[2][2] = "O";
             }else if((jogo[0][0] == "X")&&(jogo[2][2] == "X")&&(jogo[1][1] == "")){
                 jogo[1][1] = "O";
