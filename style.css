@@ -13,6 +13,23 @@ body{
     flex-direction: column;
     background-color: blue;
 }
+header{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: white;
+     color: blue;
+     flex-direction: column;
+     border-radius: 10px;
+    }
+header h1{
+     font-size: 2rem;
+     text-align: center;
+}
+header p{
+     font-size: 1.1rem;
+     text-align: center;
+}
 #dvJogo{
     width: 220px;
     height: 160px;
