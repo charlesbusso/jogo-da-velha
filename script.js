@@ -7,7 +7,7 @@ let nivel = 1;
 let jogadaCpu = 1;
 let quemComeca = 1;
 let l,c;
-
+let jogada = 0;
 /*implementar parametro*/
 function cpuJoga(){
     if(jogando){
@@ -280,6 +280,7 @@ function atualizaTabuleiro(){
 function inicia(){
     jogando = true;
     jogadaCpu = 1;
+    jogada = 0;
     jogo = [ 
         ["","",""],
         ["","",""],
