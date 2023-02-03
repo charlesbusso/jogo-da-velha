@@ -22,17 +22,17 @@ body{
     justify-content: center;
     align-items: center;
     background-color: white;
-    margin-top: 25%;
+    margin-top: 20%;
     border-radius: 10px;
 }
 
 .posJogo{
     width: 60px;
-    height: 50px;
+    height: 60px;
     cursor: pointer;
     display: flex;
-    padding: 5px;
-    margin: 0px;
+    padding: 0px;
+    margin: 5px;
     
 }
 #dvmenu{
