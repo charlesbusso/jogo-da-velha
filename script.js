@@ -37,7 +37,7 @@ function cpuJoga(){
                     jogo[2][2] = "O";
                 }else if((jogo[2][0] == "O")&&(jogo[2][2] == "O")&&(jogo[2][1] == "")){
                     jogo[2][1] = "O";
-                 } else if((jogo[2][1] == "O")&&(jogo[2][2] == "O")&&(jogo[2][2] == "")){
+                 } else if((jogo[2][1] == "O")&&(jogo[2][2] == "O")&&(jogo[2][0] == "")){
                         jogo[2][0] = "O";
                 }//coluna 1
                 else if((jogo[0][0] == "O")&&(jogo[1][0] == "O")&&(jogo[2][0] == "")){
@@ -56,14 +56,14 @@ function cpuJoga(){
                 else if((jogo[0][2] == "O")&&(jogo[1][2] == "O")&&(jogo[2][2] == "")){
                     jogo[2][2] = "O";
                 } else if((jogo[0][2] == "O")&&(jogo[2][2] == "O")&&(jogo[2][0] == "")){
-                    jogo[1][2] = "O";
+                    jogo[2][0] = "O";
                 } else if((jogo[1][2] == "O")&&(jogo[2][2] == "O")&&(jogo[0][2] == "")){
                     jogo[0][2] = "O";
                 }//jogada diagonal 1
                 else if((jogo[0][0] == "O")&&(jogo[1][1] == "O")&&(jogo[2][2] == "")){
                     jogo[2][2] = "O";
                 } else if((jogo[0][0] == "O")&&(jogo[2][2] == "O")&&(jogo[1][1] == "")){
-                    jogo[2][0] = "O";
+                    jogo[1][1] = "O";
                 } else if((jogo[1][1] == "O")&&(jogo[2][2] == "O")&&(jogo[0][0] == "")){
                     jogo[0][0] = "O";
                 }//diagonal 2
