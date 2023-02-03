@@ -3,7 +3,7 @@ let tabuleiro = [];
 let quemJoga = 0;
 let verifica;
 let jogando = true;
-let nivel = 1;
+let nivel = 2;
 let jogadaCpu = 1;
 let quemComeca = 1;
 let l,c;
