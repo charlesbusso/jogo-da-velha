@@ -162,8 +162,8 @@ header p{
 }
 #dvQuemComeca{
     margin-bottom: 10%;
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 80px;
     border-radius: 5px;
     background-color: white;
     color: blue;
@@ -174,7 +174,10 @@ header p{
 
 }
 #dvmenu button{
-
+     width: 80px;
+     font-size: 0.4rem;
+     text-align: center;
+     color: blue;
 }
 #dvJogo{
     width: 220px;
