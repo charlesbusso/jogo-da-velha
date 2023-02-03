@@ -173,12 +173,12 @@ header p{
     
 
 }
-#dvmenu button{
+/*dvmenu button{
      width: 80px;
      font-size: 0.4rem;
      text-align: center;
      color: blue;
-}
+}*/
 #dvJogo{
     width: 220px;
     height: 160px;
