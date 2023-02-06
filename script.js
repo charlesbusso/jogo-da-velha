@@ -258,7 +258,7 @@ function jogar(p){
         atualizaTabuleiro();
         verifica = verificaVitoria();
         if(verifica!= ""){
-            alert(verifica + "venceu");
+            alert(verifica + " venceu");
             jogando = false;
     }
     jogada ++;
