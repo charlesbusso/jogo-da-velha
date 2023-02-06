@@ -157,7 +157,7 @@ function cpuJoga(){
 
             verifica = verificaVitoria();
             if(verifica != ""){
-                alert(verifica + "venceu");
+                alert(verifica + " venceu");
                 jogando = false;
             }
             atualizaTabuleiro();
