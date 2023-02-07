@@ -135,13 +135,12 @@ footer p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 5px;
     border-radius: 10px;
     background-color: white;
-    font-size: 1.1rem;
     text-align: center;
     color: blue;
-    height: 200px;
+    height: 150px;
     flex-direction: column;
     font-size: 1.3rem;
     
@@ -173,7 +172,8 @@ header{
      border-radius: 10px;
      margin: 5px;
      height: 100px;
-     width: 300px;
+     width: 350px;
+     text-align: center;
     }
 header h1{
      font-size: 2rem;
@@ -285,7 +285,7 @@ header p{
 
 
 footer p{
-    height: 300px;
+    
     border-radius: 10px;
     background-color: white;
     font-size: 1.2rem;
@@ -293,20 +293,20 @@ footer p{
     color: blue;
     width: 90%;
     margin-left: 5%;
-    margin-top: 10px;
+    margin-top: 5px;
     
 }
 footer i{
     color: blue;
     font-size: 2rem;
-    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 
 
 footer{
-    height: 200px;
-    width: 100%;
-    padding: 20px;
+    width: 350px;
+    height: 150px;
+    padding: 10px;
 }
 }
