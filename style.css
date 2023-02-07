@@ -5,7 +5,7 @@
     padding: 0px;
 }
 body{
-    width: 100%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ body{
     background-color: blue;
 }
 header{
-    width: 500px;
+     width: 500px;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -155,7 +155,7 @@ footer i {
 
 
 body{
-    width: 100%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -293,6 +293,7 @@ footer p{
     color: blue;
     width: 90%;
     margin-left: 5%;
+    margin-top: 10px;
     
 }
 footer i{
@@ -300,9 +301,7 @@ footer i{
     font-size: 2rem;
     margin-top: 10px;
 }
-footer p{
-    margin-top: 10px;
-}
+
 
 
 footer{
