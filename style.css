@@ -173,6 +173,7 @@ header{
      border-radius: 10px;
      margin: 5px;
      height: 100px;
+     width: 300px;
     }
 header h1{
      font-size: 2rem;
@@ -284,7 +285,7 @@ header p{
 
 
 footer p{
-    height: 200px;
+    height: 300px;
     border-radius: 10px;
     background-color: white;
     font-size: 1.2rem;
