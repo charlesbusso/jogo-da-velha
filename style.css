@@ -146,6 +146,9 @@ footer p{
     font-size: 1.3rem;
     
 }
+footer i {
+    color: blue;
+}
 
 
 @media(max-width: 700px){
