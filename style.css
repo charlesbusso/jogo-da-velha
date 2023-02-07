@@ -85,9 +85,10 @@ header p{
     justify-content: center;
     align-items: center;
     height: 30px;
-    margin-left: 60px;
+    margin-left: 50px;
     border-radius: 5px;
     border: 1px solid blue;
+    width: 100px;
 }
 #p1{
     border-right: 1px solid blue;
@@ -130,6 +131,7 @@ header p{
 }
 footer{
     width: 500px;
+    margin-top: 20px;
 }
 footer p{
     display: flex;
@@ -172,7 +174,7 @@ header{
      border-radius: 10px;
      margin: 5px;
      height: 100px;
-     width: 350px;
+     width: 340px;
      text-align: center;
     }
 header h1{
@@ -285,7 +287,7 @@ header p{
 
 
 footer p{
-    
+    height: 200px;
     border-radius: 10px;
     background-color: white;
     font-size: 1.2rem;
@@ -305,8 +307,8 @@ footer i{
 
 
 footer{
-    width: 350px;
-    height: 150px;
+    width: 340px;
+    
     padding: 10px;
 }
 }
