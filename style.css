@@ -14,6 +14,7 @@ body{
     background-color: blue;
 }
 header{
+    width: 500px;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -25,11 +26,11 @@ header{
      height: 100px;
     }
 header h1{
-     font-size: 2rem;
+     font-size: 1.7rem;
      text-align: center;
 }
 header p{
-     font-size: 1.1rem;
+     font-size: 1rem;
      text-align: center;
 }
 #dvJogo{
@@ -85,6 +86,8 @@ header p{
     align-items: center;
     height: 30px;
     margin-left: 60px;
+    border-radius: 5px;
+    border: 1px solid blue;
 }
 #p1{
     border-right: 1px solid blue;
@@ -132,15 +135,19 @@ footer p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 10px;
     border-radius: 10px;
     background-color: white;
     font-size: 1.1rem;
     text-align: center;
     color: blue;
-    height: 100px;
+    height: 200px;
+    flex-direction: column;
+    font-size: 1.3rem;
     
 }
+
+
 @media(max-width: 700px){
 
 
@@ -174,7 +181,6 @@ header p{
 }
 #dvQuemComeca{
     margin-bottom: 2%;
-    width: 150px;
     height: 50px;
     border-radius: 5px;
     background-color: white;
@@ -183,11 +189,12 @@ header p{
     align-items: center;
     justify-content: center;
     margin-top: 2%;
+    margin-left: 20px;
 
 }
 #dvmenu button{
      width: 130px;
-     height:60px;
+     height:30px;
      font-size: 0.9rem;
      text-align: center;
      color: blue;
@@ -197,6 +204,7 @@ header p{
      justify-content: center;
      align-items: center;
      background-position: center;
+     margin-right: 55px;
 }
 #dvJogo{
     width: 220px;
@@ -270,16 +278,32 @@ header p{
     border-left: 1px solid blue;
     border-top: 1px solid blue;
 }
+
+
 footer p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 60px;
+    height: 200px;
     border-radius: 10px;
     background-color: white;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-align: center;
     color: blue;
-    height: 70px;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+footer i{
+    color: blue;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+footer p{
+    margin-top: 10px;
+}
+
+
+footer{
+    height: 200px;
+    width: 100%;
+    padding: 20px;
 }
 }
