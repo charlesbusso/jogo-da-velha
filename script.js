@@ -6,11 +6,11 @@ let jogando = true;
 let nivel = 2;
 let jogadaCpu = 1;
 let quemComeca = 1;
-let l,c;
 let jogada = 0;
 /*implementar parametro*/
 function cpuJoga(){
     if(jogando){
+        let l, c;
         if(nivel == 1){
             do{
                 l = Math.round(Math.random()*2);
@@ -134,7 +134,7 @@ function cpuJoga(){
             }else if((jogo[2][0] == "X")&&(jogo[1][1] == "X")&&(jogo[0][2] == "")){
                 jogo[0][2] = "O";
             }else{
-                if (jogada < 8){
+                if (jogada  < 9){
                     do{
                         l = Math.round(Math.random()*2);
                         c = Math.round(Math.random()*2);
@@ -169,6 +169,7 @@ function cpuJoga(){
     
     function verificaVitoria(){
         //linhas
+        let l, c;
         for(l = 0; l < 3; l++){
             if((jogo[l][0] == jogo[l][1])&&(jogo[l][1] == jogo[l][2])){
                 return jogo[l][0];
@@ -186,9 +187,8 @@ function cpuJoga(){
             return jogo[0][0]; 
      } if((jogo[0][2] == jogo[1][1])&&(jogo[1][1] == jogo[2][0])){     
            return jogo[0][2]; 
-    
+       }
     return "";
-    }
 }
 
 
@@ -245,7 +245,7 @@ function jogar(p){
                     quemJoga = 1;
                 }
                 break;
-                default:
+                case 9:
                 if(jogo[2][2] == ""){
                     jogo[2][2] = "X";
                     quemJoga = 1;
