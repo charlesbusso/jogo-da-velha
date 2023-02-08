@@ -13,12 +13,12 @@ body{
     flex-direction: column;
     background-color: blue;
 }
-header a{
+a{
     background-color: white;
     width: 80px;
     height: 50px;
-    margin-right: 130%;
-    margin-top: 30px;
+    margin-right: 70%;
+    margin-top: 10px;
     color: blue;
     border-radius: 8px;
     text-align: center;
@@ -176,6 +176,9 @@ body{
     height: 100%;
     flex-direction: column;
     background-color: blue;
+}
+a{
+    top: 55%;
 }
 header{
      display: flex;
