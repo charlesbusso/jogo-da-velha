@@ -13,6 +13,19 @@ body{
     flex-direction: column;
     background-color: blue;
 }
+header a{
+    background-color: white;
+    width: 80px;
+    height: 50px;
+    margin-right: 130%;
+    margin-top: 30px;
+    color: blue;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+
+    
+}
 header{
      width: 500px;
      display: flex;
