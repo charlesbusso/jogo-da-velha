@@ -125,4 +125,7 @@ footer p{
  .jv img{
      width: 50px;
  }
+ footer p{
+     font-size: 0.9rem;
+}
 }
