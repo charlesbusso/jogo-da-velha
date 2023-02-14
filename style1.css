@@ -18,6 +18,7 @@ body{
 }
 .jv img{
     width: 80px;
+
 }
 .jv1{
     margin-left: 50%;
@@ -34,7 +35,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 150px;
+    height: 160px;
     color: blue;
     align-items: center;
     text-align: center;
@@ -102,6 +103,7 @@ footer p{
     header h1{
         font-size: 1.3rem;
     }
+   
 
 .img{
     width: 330px;
